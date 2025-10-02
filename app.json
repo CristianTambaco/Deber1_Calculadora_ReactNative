@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "calculadora-app",
-    "slug": "calculadora-app",
+    "name": "calculadoraEPN-app",
+    "slug": "calculadoraEPN-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "calculadoraapp",
+    "scheme": "calculadoraepnapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.cristian_tm.calculadoraEPNapp"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1fa0cc1a-a779-4a18-b3d3-a03fd708e9e0"
+      }
     }
   }
 }
